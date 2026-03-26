@@ -127,7 +127,7 @@
                 <div class="header-top-text">DATI MIMIT - OSSERVAPREZZI CARBURANTI</div>
                 <h1>WEX <span>Fuel Radar</span></h1>
                 <p>Pianificazione Percorsi e Analisi Prezzi Flotte</p>
-                <div class="update-badge">🔄 Database Sincronizzato: 26/03/2026 alle 17:13</div>
+                <div class="update-badge">🔄 Database Sincronizzato: 26/03/2026 alle 17:22</div>
             </div>
             
             <div class="content-area">
@@ -264,6 +264,7 @@
                         <li><b>Pin sulla Mappa:</b> I segnalini verdi indicano la "Top 10" dei distributori più economici per l'area selezionata.</li>
                         <li><b>Ordinamento:</b> Puoi scegliere se ordinare la lista laterale per "Più Economico" o "Più Vicino" (utile quando hai calcolato un percorso).</li>
                         <li><b>Prezzi Aggiornati:</b> Usa la tendina per escludere i distributori che non comunicano il prezzo al MIMIT da più di 24 o 48 ore.</li>
+                        <li><b>Frecce Trend:</b> Sulla mappa e nell'elenco noterai frecce rosse (📈) o verdi (📉) se il gestore ha appena modificato il prezzo.</li>
                     </ul>
                 </div>
 
@@ -440,9 +441,9 @@
                     const delta = (d.deltas && d.deltas[fuel]) ? d.deltas[fuel] : 0;
                     let deltaHtml = "";
                     if (delta > 0) {
-                        deltaHtml = `<span style="color:var(--danger); font-size:12px; font-weight:800; background:#fef2f2; padding:2px 6px; border-radius:4px; margin-left:6px;">📈 +${delta.toFixed(3)}</span>`;
+                        deltaHtml = `<span style="color:var(--danger); font-size:11px; font-weight:800; background:#fef2f2; padding:2px 6px; border-radius:4px; margin-left:6px;">📈 +${delta.toFixed(3)}</span>`;
                     } else if (delta < 0) {
-                        deltaHtml = `<span style="color:var(--success); font-size:12px; font-weight:800; background:#ecfdf5; padding:2px 6px; border-radius:4px; margin-left:6px;">📉 ${delta.toFixed(3)}</span>`;
+                        deltaHtml = `<span style="color:var(--success); font-size:11px; font-weight:800; background:#ecfdf5; padding:2px 6px; border-radius:4px; margin-left:6px;">📉 ${delta.toFixed(3)}</span>`;
                     }
                     // ----------------------------------------
 
