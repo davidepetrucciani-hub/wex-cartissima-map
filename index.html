@@ -147,6 +147,40 @@
             
             .card-anomaly { border-left: 5px solid var(--danger) !important; }
             
+            /* --- CSS CARD MIGLIOR PREZZO --- */
+            .best-price-card {
+                background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+                color: white !important;
+                border: none !important;
+                box-shadow: 0 10px 25px rgba(5, 150, 105, 0.4) !important;
+                transform: scale(1.02);
+                z-index: 10;
+                margin-bottom: 15px;
+            }
+            .best-price-card .brand-name, .best-price-card .price-tag, .best-price-card .address {
+                color: white !important;
+            }
+            .best-price-card .badge { 
+                background: rgba(255, 255, 255, 0.2) !important; 
+                color: white !important; 
+                border: 1px solid rgba(255,255,255,0.4) !important; 
+            }
+            .best-price-card .btn-outline { 
+                background: white !important; 
+                color: #059669 !important; 
+                border: none !important; 
+                font-weight: 900 !important; 
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .best-price-card .btn-outline:hover {
+                background: #f1f5f9 !important;
+            }
+            .best-badge {
+                background: #fbbf24; color: #78350f; font-size: 11px; font-weight: 900;
+                padding: 4px 8px; border-radius: 6px; display: inline-flex; align-items: center; gap: 5px; margin-bottom: 12px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 100%; justify-content: center; text-transform: uppercase; letter-spacing: 0.5px;
+            }
+            
             /* CSS PER IL POPUP DASHBOARD ALLARGATO */
             .leaflet-popup-content-wrapper { border-radius: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.2) !important; padding: 0; }
             .leaflet-popup-content { margin: 15px; font-family: 'Inter', sans-serif; text-align: center; line-height: 1.4; }
@@ -179,7 +213,7 @@
                 <div class="header-top-text">DATI MIMIT - OSSERVAPREZZI CARBURANTI</div>
                 <h1>WEX <span>Fuel Radar</span></h1>
                 <p>Pianificazione Percorsi e Analisi Prezzi Flotte</p>
-                <div class="update-badge">🔄 Database Sincronizzato: 17/04/2026 alle 10:02</div>
+                <div class="update-badge">🔄 Database Sincronizzato: 17/04/2026 alle 10:03</div>
             </div>
             
             <div class="content-area">
@@ -701,7 +735,22 @@
 
                     if (useShield) {
                         if ((now - f.ts) > 604800) return false;
-                        if (f.p < 1.00 || f.p > 2.50) return false;
+                        
+                        let absoluteMin = 0.40;
+                        let absoluteMax = 3.00;
+                        
+                        if (fuel.includes('BENZINA') || fuel.includes('GASOLIO')) {
+                            absoluteMin = 1.10;
+                            absoluteMax = 2.60;
+                        } else if (fuel.includes('GPL')) {
+                            absoluteMin = 0.40;
+                            absoluteMax = 1.30;
+                        } else if (fuel.includes('METANO')) {
+                            absoluteMin = 0.70;
+                            absoluteMax = 2.80;
+                        }
+                        
+                        if (f.p < absoluteMin || f.p > absoluteMax) return false;
                     }
                     
                     if(window.currentPath) {
@@ -827,16 +876,21 @@
 
                     if(i < 50) { 
                         const card = document.createElement('div');
+                        const isBest = i === 0;
+                        
                         let cardClasses = `card ${isTop10 ? 'top-price' : ''}`;
                         if (isAnomaly) cardClasses += ' card-anomaly';
+                        if (isBest) cardClasses += ' best-price-card'; 
                         card.className = cardClasses;
                         
                         let anomalyAlert = isAnomaly ? `<div style="background:var(--danger); color:#fff; padding:6px 10px; border-radius:6px; font-size:10px; font-weight:800; margin-bottom:8px;">⚠️ ANOMALIA MIMIT: Probabile errore di digitazione.</div>` : "";
+                        let bestBadgeHtml = isBest ? `<div class="best-badge">🏆 MIGLIOR PREZZO ASSOLUTO</div>` : "";
 
                         let distHtml = d.dist_km !== null ? `<span class="badge" style="background:#f1f5f9; color:#334155; border: 1px solid #cbd5e1;">📍 ${d.dist_km.toFixed(1)} km</span>` : "";
 
                         card.innerHTML = `
                             ${anomalyAlert}
+                            ${bestBadgeHtml}
                             <div class="card-header">
                                 <span class="brand-name">${i+1}. ${d.brand}</span>
                                 <span class="price-tag" style="color:${isAnomaly ? 'red' : ''};">${f.p.toFixed(3)}€ ${deltaHtml}</span>
