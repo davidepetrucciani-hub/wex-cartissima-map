@@ -19376,14 +19376,14 @@
   },
   "15101": {
     "BENZINA (Self)": {
-      "price": 1.679,
+      "price": 1.689,
       "old_price": 1.679,
-      "changed_at": 1776828164
+      "changed_at": 1777326340
     },
     "GASOLIO (Self)": {
-      "price": 2.009,
-      "old_price": 2.019,
-      "changed_at": 1777067744
+      "price": 1.995,
+      "old_price": 2.009,
+      "changed_at": 1777326340
     },
     "METANO (Self)": {
       "price": 1.349,
@@ -38450,9 +38450,9 @@
       "changed_at": 1776828164
     },
     "BENZINA (Self)": {
-      "price": 1.809,
-      "old_price": 1.779,
-      "changed_at": 1777063545
+      "price": 1.799,
+      "old_price": 1.809,
+      "changed_at": 1777326340
     },
     "GASOLIO (Servito)": {
       "price": 2.269,
@@ -105970,9 +105970,9 @@
       "changed_at": 1777318779
     },
     "GASOLIO (Servito)": {
-      "price": 2.049,
-      "old_price": 2.109,
-      "changed_at": 1777318779
+      "price": 2.109,
+      "old_price": 2.049,
+      "changed_at": 1777326340
     },
     "GASOLIO (Self)": {
       "price": 2.049,
@@ -197755,9 +197755,9 @@
   },
   "41369": {
     "BENZINA (Self)": {
-      "price": 1.668,
-      "old_price": 1.664,
-      "changed_at": 1777067146
+      "price": 1.678,
+      "old_price": 1.668,
+      "changed_at": 1777326340
     },
     "GASOLIO (Self)": {
       "price": 1.994,
@@ -198138,9 +198138,9 @@
       "changed_at": 1777067146
     },
     "GASOLIO (Self)": {
-      "price": 1.975,
-      "old_price": 1.995,
-      "changed_at": 1776982075
+      "price": 1.989,
+      "old_price": 1.975,
+      "changed_at": 1777326340
     }
   },
   "52683": {
@@ -500140,6 +500140,23 @@
       "price": 1.899,
       "old_price": 1.899,
       "changed_at": 1777296339
+    }
+  },
+  "62933": {
+    "BENZINA (Self)": {
+      "price": 1.724,
+      "old_price": 1.724,
+      "changed_at": 1777326340
+    },
+    "GASOLIO (Self)": {
+      "price": 2.056,
+      "old_price": 2.056,
+      "changed_at": 1777326340
+    },
+    "GASOLIO SPECIALE (Self)": {
+      "price": 2.156,
+      "old_price": 2.156,
+      "changed_at": 1777326340
     }
   }
 }
