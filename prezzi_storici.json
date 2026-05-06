@@ -10871,14 +10871,14 @@
   },
   "46406": {
     "BENZINA (Servito)": {
-      "price": 1.86,
-      "old_price": 1.8,
-      "changed_at": 1777910760
+      "price": 1.9,
+      "old_price": 1.86,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.03,
+      "price": 1.99,
       "old_price": 2.03,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "46218": {
@@ -10888,9 +10888,9 @@
       "changed_at": 1777963579
     },
     "GASOLIO (Servito)": {
-      "price": 2.06,
+      "price": 2.04,
       "old_price": 2.06,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "53075": {
@@ -114123,9 +114123,9 @@
       "changed_at": 1777909564
     },
     "GASOLIO (Self)": {
-      "price": 1.979,
-      "old_price": 1.989,
-      "changed_at": 1777991193
+      "price": 1.959,
+      "old_price": 1.979,
+      "changed_at": 1778091951
     }
   },
   "58408": {
@@ -132623,14 +132623,14 @@
   },
   "9730": {
     "BENZINA (Servito)": {
-      "price": 1.989,
-      "old_price": 1.959,
-      "changed_at": 1777920947
+      "price": 1.979,
+      "old_price": 1.989,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.079,
-      "old_price": 2.099,
-      "changed_at": 1777920947
+      "price": 2.069,
+      "old_price": 2.079,
+      "changed_at": 1778091951
     }
   },
   "9729": {
@@ -203193,9 +203193,9 @@
       "changed_at": 1778072756
     },
     "BENZINA (Self)": {
-      "price": 1.929,
-      "old_price": 1.942,
-      "changed_at": 1777901104
+      "price": 1.949,
+      "old_price": 1.929,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
       "price": 2.049,
@@ -208273,9 +208273,9 @@
       "changed_at": 1777700154
     },
     "BENZINA (Self)": {
-      "price": 1.979,
-      "old_price": 1.799,
-      "changed_at": 1777700154
+      "price": 1.959,
+      "old_price": 1.979,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
       "price": 2.249,
@@ -208283,9 +208283,9 @@
       "changed_at": 1777757751
     },
     "GASOLIO (Self)": {
-      "price": 2.069,
-      "old_price": 2.099,
-      "changed_at": 1777700154
+      "price": 2.049,
+      "old_price": 2.069,
+      "changed_at": 1778091951
     }
   },
   "58810": {
@@ -210689,9 +210689,9 @@
       "changed_at": 1777642551
     },
     "GASOLIO (Self)": {
-      "price": 2.029,
+      "price": 1.999,
       "old_price": 2.029,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GPL (Servito)": {
       "price": 0.736,
@@ -210704,9 +210704,9 @@
       "changed_at": 1777642551
     },
     "GASOLIO SPECIALE (Self)": {
-      "price": 2.129,
+      "price": 2.099,
       "old_price": 2.129,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "52223": {
@@ -253475,9 +253475,9 @@
       "changed_at": 1777916745
     },
     "BENZINA (Self)": {
-      "price": 1.947,
-      "old_price": 1.937,
-      "changed_at": 1777916745
+      "price": 1.929,
+      "old_price": 1.947,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
       "price": 2.529,
@@ -253485,9 +253485,9 @@
       "changed_at": 1778061352
     },
     "GASOLIO (Self)": {
-      "price": 2.039,
-      "old_price": 2.049,
-      "changed_at": 1778061352
+      "price": 2.019,
+      "old_price": 2.039,
+      "changed_at": 1778091951
     }
   },
   "46431": {
@@ -278874,24 +278874,24 @@
   },
   "15423": {
     "BENZINA (Servito)": {
-      "price": 2.229,
-      "old_price": 2.219,
-      "changed_at": 1778003143
+      "price": 2.209,
+      "old_price": 2.229,
+      "changed_at": 1778091951
     },
     "BENZINA (Self)": {
-      "price": 1.929,
-      "old_price": 1.919,
-      "changed_at": 1778003143
+      "price": 1.909,
+      "old_price": 1.929,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.349,
+      "price": 2.329,
       "old_price": 2.349,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.049,
+      "price": 2.029,
       "old_price": 2.049,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "52133": {
@@ -279760,24 +279760,24 @@
   },
   "53903": {
     "BENZINA (Servito)": {
-      "price": 2.199,
-      "old_price": 2.189,
-      "changed_at": 1778054758
+      "price": 2.189,
+      "old_price": 2.199,
+      "changed_at": 1778091951
     },
     "BENZINA (Self)": {
-      "price": 1.999,
-      "old_price": 1.989,
-      "changed_at": 1778054758
+      "price": 1.989,
+      "old_price": 1.999,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.259,
-      "old_price": 2.269,
-      "changed_at": 1777913149
+      "price": 2.249,
+      "old_price": 2.259,
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.059,
-      "old_price": 2.069,
-      "changed_at": 1777913149
+      "price": 2.049,
+      "old_price": 2.059,
+      "changed_at": 1778091951
     }
   },
   "58065": {
@@ -284690,24 +284690,24 @@
   },
   "57150": {
     "BENZINA (Servito)": {
-      "price": 1.899,
-      "old_price": 1.866,
-      "changed_at": 1777969557
+      "price": 1.946,
+      "old_price": 1.899,
+      "changed_at": 1778091951
     },
     "BENZINA (Self)": {
-      "price": 1.899,
-      "old_price": 1.866,
-      "changed_at": 1777969557
+      "price": 1.946,
+      "old_price": 1.899,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.068,
-      "old_price": 2.093,
-      "changed_at": 1777969557
+      "price": 1.988,
+      "old_price": 2.068,
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.068,
-      "old_price": 2.093,
-      "changed_at": 1777969557
+      "price": 1.988,
+      "old_price": 2.068,
+      "changed_at": 1778091951
     }
   },
   "14016": {
@@ -341876,24 +341876,24 @@
   },
   "14099": {
     "BENZINA (Servito)": {
-      "price": 2.139,
-      "old_price": 2.189,
-      "changed_at": 1778082944
+      "price": 2.119,
+      "old_price": 2.139,
+      "changed_at": 1778091951
     },
     "BENZINA (Self)": {
-      "price": 1.939,
-      "old_price": 1.989,
-      "changed_at": 1778082944
+      "price": 1.919,
+      "old_price": 1.939,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.219,
-      "old_price": 2.249,
-      "changed_at": 1778082944
+      "price": 2.199,
+      "old_price": 2.219,
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.019,
-      "old_price": 2.049,
-      "changed_at": 1778082944
+      "price": 1.999,
+      "old_price": 2.019,
+      "changed_at": 1778091951
     }
   },
   "22745": {
@@ -371178,14 +371178,14 @@
       "changed_at": 1778004953
     },
     "GASOLIO (Servito)": {
-      "price": 2.215,
-      "old_price": 2.255,
-      "changed_at": 1778004953
+      "price": 2.195,
+      "old_price": 2.215,
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.015,
-      "old_price": 2.055,
-      "changed_at": 1778004953
+      "price": 1.995,
+      "old_price": 2.015,
+      "changed_at": 1778091951
     }
   },
   "46608": {
@@ -384393,24 +384393,24 @@
   },
   "59623": {
     "BENZINA (Servito)": {
-      "price": 1.899,
-      "old_price": 1.729,
-      "changed_at": 1777920947
+      "price": 1.919,
+      "old_price": 1.899,
+      "changed_at": 1778091951
     },
     "BENZINA (Self)": {
-      "price": 1.899,
-      "old_price": 1.729,
-      "changed_at": 1777920947
+      "price": 1.919,
+      "old_price": 1.899,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.034,
-      "old_price": 2.039,
-      "changed_at": 1777920947
+      "price": 2.029,
+      "old_price": 2.034,
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.034,
-      "old_price": 2.039,
-      "changed_at": 1777920947
+      "price": 2.029,
+      "old_price": 2.034,
+      "changed_at": 1778091951
     },
     "GPL (Servito)": {
       "price": 0.779,
@@ -390602,14 +390602,14 @@
       "changed_at": 1777971967
     },
     "GASOLIO (Self)": {
-      "price": 2.029,
+      "price": 1.999,
       "old_price": 2.029,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GASOLIO SPECIALE (Self)": {
-      "price": 2.199,
+      "price": 2.169,
       "old_price": 2.199,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "41771": {
@@ -390700,29 +390700,29 @@
       "changed_at": 1777971967
     },
     "GASOLIO (Servito)": {
-      "price": 2.219,
+      "price": 2.209,
       "old_price": 2.219,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.029,
+      "price": 2.019,
       "old_price": 2.029,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GASOLIO SPECIALE (Servito)": {
-      "price": 2.399,
+      "price": 2.389,
       "old_price": 2.399,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GASOLIO SPECIALE (Self)": {
-      "price": 2.209,
+      "price": 2.199,
       "old_price": 2.209,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "HVO (Self)": {
-      "price": 2.029,
+      "price": 2.019,
       "old_price": 2.029,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "28370": {
@@ -432672,24 +432672,24 @@
   },
   "15439": {
     "BENZINA (Servito)": {
-      "price": 2.239,
-      "old_price": 2.229,
-      "changed_at": 1777997745
+      "price": 2.229,
+      "old_price": 2.239,
+      "changed_at": 1778091951
     },
     "BENZINA (Self)": {
-      "price": 1.989,
-      "old_price": 1.979,
-      "changed_at": 1777997745
+      "price": 1.979,
+      "old_price": 1.989,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.329,
-      "old_price": 2.349,
-      "changed_at": 1777913743
+      "price": 2.319,
+      "old_price": 2.329,
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.079,
-      "old_price": 2.099,
-      "changed_at": 1777913743
+      "price": 2.069,
+      "old_price": 2.079,
+      "changed_at": 1778091951
     }
   },
   "24846": {
@@ -435821,9 +435821,9 @@
       "changed_at": 1778004356
     },
     "GPL (Servito)": {
-      "price": 0.818,
+      "price": 0.844,
       "old_price": 0.818,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "41589": {
@@ -462157,14 +462157,14 @@
   },
   "26291": {
     "BENZINA (Self)": {
-      "price": 1.85,
+      "price": 1.99,
       "old_price": 1.85,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GASOLIO (Self)": {
-      "price": 2.19,
+      "price": 1.995,
       "old_price": 2.19,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     },
     "GPL (Servito)": {
       "price": 0.75,
@@ -464186,14 +464186,14 @@
   },
   "42875": {
     "BENZINA (Servito)": {
-      "price": 1.969,
-      "old_price": 1.789,
-      "changed_at": 1777724742
+      "price": 1.979,
+      "old_price": 1.969,
+      "changed_at": 1778091951
     },
     "GASOLIO (Servito)": {
-      "price": 2.149,
+      "price": 2.099,
       "old_price": 2.149,
-      "changed_at": 1777642551
+      "changed_at": 1778091951
     }
   },
   "57983": {
