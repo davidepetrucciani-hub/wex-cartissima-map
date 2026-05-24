@@ -50891,9 +50891,9 @@
       "changed_at": 1779362340
     },
     "BENZINA (Self)": {
-      "price": 2.0,
-      "old_price": 1.96,
-      "changed_at": 1779660356
+      "price": 1.96,
+      "old_price": 2.0,
+      "changed_at": 1779662750
     },
     "GASOLIO (Servito)": {
       "price": 2.189,
@@ -50901,9 +50901,9 @@
       "changed_at": 1779531943
     },
     "GASOLIO (Self)": {
-      "price": 2.091,
-      "old_price": 2.049,
-      "changed_at": 1779660356
+      "price": 2.049,
+      "old_price": 2.091,
+      "changed_at": 1779662750
     },
     "GPL (Servito)": {
       "price": 0.817,
@@ -50916,9 +50916,9 @@
       "changed_at": 1779531943
     },
     "GASOLIO SPECIALE (Self)": {
-      "price": 2.191,
-      "old_price": 2.149,
-      "changed_at": 1779660356
+      "price": 2.149,
+      "old_price": 2.191,
+      "changed_at": 1779662750
     },
     "HVOLUTION (Servito)": {
       "price": 1.0,
@@ -485846,9 +485846,9 @@
       "changed_at": 1779347441
     },
     "GASOLIO (Servito)": {
-      "price": 1.999,
-      "old_price": 2.099,
-      "changed_at": 1779347441
+      "price": 2.099,
+      "old_price": 1.999,
+      "changed_at": 1779662750
     }
   },
   "53131": {
@@ -485877,9 +485877,9 @@
       "changed_at": 1778909751
     },
     "GASOLIO (Servito)": {
-      "price": 2.099,
+      "price": 2.199,
       "old_price": 2.099,
-      "changed_at": 1778909751
+      "changed_at": 1779662750
     }
   },
   "41859": {
